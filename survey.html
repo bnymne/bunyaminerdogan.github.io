@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="isim">
+        <p class="habibi"><b>Bünyamin Erdoğan</b></p>
+        <p class="hamud">Bilgisayar Mühendisliği Öğrencisi</p>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkında</a></li>
+                <li><a href="projects.html">Projeler</a></li>
+                <li><a href="survey.html">Anketler</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sayfa">
+        <h2 class="anketsoru">Ülkemizin siber güvenliğini yeterli buluyor musunuz?</h2>
+        <form action="#" method="POST" class="anketsecenek">
+            <label>
+                <input type="radio" name="siberGüvenlik" value="Evet" required>
+                Evet
+            </label><br>
+            <label>
+                <input type="radio" name="siberGüvenlik" value="Hayır" required class="hayırb">
+                Hayır
+            </label><br>
+            <textarea name="neden" placeholder="Hayır ise nedenini yazınız..." rows="4" cols="50" class="nedeni"></textarea><br>
+            <button type="submit" class="buton">Gönder</button>
+        </form>
+        <div class="anket">
+            <h3 class="anketsoru2">En çok hangi işletim sistemini kullanıyorsunuz?</h3>
+            <form class="anketsecenek2">
+                <label>
+                    <input type="radio" name="os" value="Windows"> Windows
+                </label><br>
+                <label>
+                    <input type="radio" name="os" value="MacOs"> MacOS
+                </label><br>
+                <label>
+                    <input type="radio" name="os" value="Pardus"> Pardus
+                </label><br>
+                <label>
+                    <input type="radio" name="os" value="Linux"> Linux ve türevleri
+                </label><br>
+                <button type="submit" class="buton2">Gönder</button>
+            </form>
+        </div>
+        
+    </div>
+</div>
+<div class="altserit">
+    <p class="altyazı">Tüm hakları saklıdır | Düzce Üniversitesi</p>
+</div>
+</body>
+</html>
